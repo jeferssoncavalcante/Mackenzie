@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+#imagem1 {
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}  
+#imagem2 {
+  background-image: url("img3.gif");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+fieldset#fomrCont {
+  position: relative;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+input, textarea, select {
+  border: none;
+}
+table, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+td#left {
+  width: 50%;
+}
+input#submit {
+  margin-top: 10px;
+}
+tr.aqua, input.aqua, select.aqua {
+  background-color: aquamarine;
+}
+tr.violet, textarea.violet {
+  background-color: violet;
+}
+input#cNasc {
+  background-color: violet;
+}
