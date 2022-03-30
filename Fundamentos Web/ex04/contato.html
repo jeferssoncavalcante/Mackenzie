@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockChain</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+            </div>
+            <div class="col-4 text-center">
+              <a class="blog-header-logo text-dark" href="index.html">BLOCK CHAIN</a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+            </div>
+          </div>
+        </header>
+      
+        <div class="nav-scroller py-1 mb-2">
+          <nav class="nav d-flex align-items-center">
+            <a class="p-2 link-secondary" href="index.html">Home</a>
+            <a class="p-2 link-secondary" href="#">Contato</a>
+          </nav>
+        </div>
+    </div>
+
+    <main class="container">
+        <form method="post" id="contato" action="#" target="_self">
+          <fieldset id="fomrCont"><legend>Dados Pessoais</legend> 
+              <fieldset id="dados">
+                <table>
+                  <tr class="aqua">
+                    <td id="left">Nome</td>
+                    <td colspan="2" id="right"><input type="text" name="tNome" class="aqua" id="cNome" size="50" maxlength="35" placeholder="Nome Completo" required/></td>
+                  </tr>
+                  <tr class="violet">
+                    <td id="left">Data de Nascimento</td>
+                    <td colspan="2" id="right"><input type="date" class="violet" name="tNasc" id="cNasc" required/></td>
+                  </tr>
+                  <tr class="aqua">
+                    <td id="left">Email</td>
+                    <td colspan="2" id="right"><input type="email" name="tMail" class="aqua" id="cMail" size="50" maxlength="55" required/></td>
+                  </tr>
+                  <fieldset id="sexo">
+                    <tr class="violet">
+                      <td id="left">Sexo</td>
+                      <td id="right"><input type="radio" name="tSexo" id="cMasc" checked/><label for="cMasc">Masculino</label></td>
+                      <td id="right"><input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label></td>
+                    </tr>
+                  </fieldset>
+                  <fieldset id="pais">
+                    <tr class="aqua">
+                      <td id="left">Nacionalidade</td>
+                      <td colspan="2" id="right">
+                        <select name="" class="aqua" id="">
+                          <option value="" selected required>Selecione</option>
+                          <option>Brasileiro</option>
+                          <option>Estrangeiro</option>
+                          <option>Naturaizado</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </fieldset>
+                  <fieldset id="duvidas">
+                    <tr class="violet">
+                      <td id="left">Duvida</td>
+                      <td colspan="2" id="right"><textarea name="" class="violet" id="" cols="55" rows="1"></textarea></td>
+                    </tr>
+                  </fieldset> 
+                </table>
+          </fieldset>
+          <input type="image" id="submit" src="botao-enviar-hi.png" width="120px" height="40px"/>
+        </form>
+    </main>
+</body>
+</html>
