@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+li {
+    text-transform: capitalize;
+}
+h1 {
+    text-transform: uppercase;
+}
