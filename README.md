@@ -10,3 +10,5 @@ Nesta página você irá encontrar links que vão te levar a alguns projetos que
   * [Página Responsiva](https://jeferssoncavalcante.github.io/Mackenzie/Fundamentos%20Web/ex05/Praticando/index.html) (Obs: Página desenvolvida usando Grid).
   
   * [Exercício Livre](https://jeferssoncavalcante.github.io/Mackenzie/Fundamentos%20Web/ex04/index.html)
+
+* [Proje JAVA] (https://github.com/jeferssoncavalcante/Projetos-senai-JAVA)  
